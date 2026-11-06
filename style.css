@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+.contaier h1{
+    font-size: 22px;
+}
+.container{
+    width: 200px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 11px;
+}
+.container img{
+   width: 70px;
+   border-radius: 70%;
+}
+.container h1{
+    color: hsl(0, 0%, 100%);
+}
+.container .text1{
+    color:  hsl(75, 94%, 57%);
+}
+.container .text{
+    color:  hsl(0, 0%, 100%);
+}
+.btns button{
+    width: 160px;
+    height: 30px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    margin: 5px;
+}
